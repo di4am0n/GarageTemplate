@@ -263,6 +263,11 @@
     visibility:hidden;
     opacity:0;
   }
+
+
+  .boxed_wrapper{
+    padding-bottom: 96px;
+  }
 }
 
 
