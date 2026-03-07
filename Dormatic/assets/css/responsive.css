@@ -984,6 +984,33 @@
 
 }
 
+/* FAQ Custom Responsive */
+@media only screen and (max-width: 991px){
+  .faq-section-custom .content-box .sec-title h2{
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .faq-section-custom .faq-btn{
+    padding: 18px 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .faq-section-custom .faq-body{
+    padding: 0 20px 20px 20px;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .faq-section-custom .content-box .sec-title h2{
+    font-size: 34px;
+    line-height: 42px;
+  }
+}
+
 @media only screen and (max-width: 599px){
 
   .banner-carousel .content-box .btn-box .theme-btn-one{
