@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Dormatic - HTML 5 Template Preview</title>
+<title>Garage Door</title>
 
 <!-- Fav Icon -->
 <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
@@ -32,12 +32,6 @@
 <body>
 
     <div class="boxed_wrapper">
-
-
-        <!-- preloader -->
-        <div class="preloader"></div>
-        <!-- preloader -->
-
 
         <!-- main header -->
         <header class="main-header style-one">
@@ -121,7 +115,7 @@
                                                 <li><a href="pricing.html">Pricing Plan</a></li>
                                                 <li><a href="error.html">404</a></li>
                                             </ul>
-                                        </li> 
+                                        </li>
                                         <li class="dropdown"><a href="index.html">Services</a>
                                             <ul>
                                                 <li><a href="service.html">Services 01</a></li>
@@ -236,6 +230,7 @@
         </header>
         <!-- main-header end -->
 
+
         <!-- Mobile Menu  -->
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
@@ -262,166 +257,120 @@
                     </ul>
                 </div>
             </nav>
-        </div><!-- End Mobile Menu -->
+        </div>
+        <!-- End Mobile Menu -->
 
 
         <!-- banner-section -->
-        <section class="banner-section">
-            <div class="banner-carousel owl-theme owl-carousel owl-nav-none">
+        <div class="banner-section">
+            <div class="banner-carousel owl-carousel">
                 <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/banner/banner-1.jpg)"></div>
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <h5><i class="icon-warehouse"></i>Welcome To Dormatic Service</h5>
-                            <h1>Quality Garage Door Installations & Repairs</h1>
-                            <p>Mod tempor incididunt ut laboret dolore magna aliqua tenim adnim veniam quis nostrud exercitation ullamco.</p>
-                            <div class="btn-box clearfix">
-                                <div class="call-now">
-                                    <div class="inner">
-                                        <i class="icon-mob"></i>
-                                        <span>Book an Appointment Today!</span>
-                                        <h3><a href="tel:12017193488">(+1) 201 719 3488</a></h3>
-                                    </div>
-                                </div>
-                                <a href="index.html" class="theme-btn-one"><span class="btn-shape"></span>learn more</a>
-                            </div>
-                        </div> 
+                    <div class="image-layer">
+                        <video autoplay="" muted="" loop="" playsinline="" preload="metadata" aria-hidden="true" tabindex="-1" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; display:block;">
+                            <source src="assets/video/header.mp4">
+                        </video>
                     </div>
-                </div>
-                <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/banner/banner-2.jpg)"></div>
-                    <div class="auto-container">
+                    <div class="auto-container container-2">
                         <div class="content-box">
                             <h5><i class="icon-warehouse"></i>Welcome To Dormatic Service</h5>
-                            <h1>Quality Garage Door Installations & Repairs</h1>
+                            <h1>Garage Door Installations & Repairs</h1>
                             <p>Mod tempor incididunt ut laboret dolore magna aliqua tenim adnim veniam quis nostrud exercitation ullamco.</p>
-                            <div class="btn-box clearfix">
-                                <div class="call-now">
+                            <div class="btn-box banner-cta-row">
+                                <div class="call-now banner-call-now">
                                     <div class="inner">
                                         <i class="icon-mob"></i>
                                         <span>Book an Appointment Today!</span>
                                         <h3><a href="tel:12017193488">(+1) 201 719 3488</a></h3>
                                     </div>
                                 </div>
-                                <a href="index.html" class="theme-btn-one"><span class="btn-shape"></span>learn more</a>
+                                <a href="index.html" class="theme-btn-one banner-cta-link"><span class="btn-shape"></span>learn more</a>
                             </div>
-                        </div>   
-                    </div>
-                </div>
-                <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/banner/banner-1.jpg)"></div>
-                    <div class="auto-container">
+                        </div>
                         <div class="content-box">
-                            <h5><i class="icon-warehouse"></i>Welcome To Dormatic Service</h5>
-                            <h1>Quality Garage Door Installations & Repairs</h1>
-                            <p>Mod tempor incididunt ut laboret dolore magna aliqua tenim adnim veniam quis nostrud exercitation ullamco.</p>
-                            <div class="btn-box clearfix">
-                                <div class="call-now">
-                                    <div class="inner">
-                                        <i class="icon-mob"></i>
-                                        <span>Book an Appointment Today!</span>
-                                        <h3><a href="tel:12017193488">(+1) 201 719 3488</a></h3>
+                            <div class="service-form">
+                                <div class="title-inner">
+                                    <div class="text">
+                                        <h2 class="text-white text-center" style="margin: -10px 0px 10px">Schedule A Service Request</h2>
                                     </div>
                                 </div>
-                                <a href="index.html" class="theme-btn-one"><span class="btn-shape"></span>learn more</a>
+                                <div class="form-inner">
+                                    <form class="contact-form ajax-contact quote-form" onsubmit="handleFormSubmission(this); return false;">
+                                        <div class="row">
+                                            <div class="form-group mb-1">
+                                                <label for="quote-form-name" class="sr-only">Your Name</label>
+                                                <input type="text" class="form-control" name="name" id="quote-form-name" placeholder="Your Name">
+                                            </div>
+                                            <div class="form-group mb-1">
+                                                <label for="quote-form-phone" class="sr-only">Phone Number</label>
+                                                <input type="tel" class="form-control" name="phone" id="quote-form-phone" placeholder="Phone Number">
+                                            </div>
+                                            <div class="form-group mb-1">
+                                                <label for="quote-form-email" class="sr-only">Email Address</label>
+                                                <input type="email" class="form-control" name="email" id="quote-form-email" placeholder="Email Address">
+                                            </div>
+                                            <div class="form-group mb-1" style="margin-bottom: 10px;">
+                                                <label for="quote-form-address" class="sr-only">Address (Optional)</label>
+                                                <input type="text" class="form-control" name="address" id="quote-form-address" placeholder="Address (Optional)">
+                                                <small class="form-text text-muted" style="display: inline-block; font-size: 0.75rem; line-height: 1.1;">
+                                                    Adding your address helps us confirm availability faster.
+                                                </small>
+                                            </div>
+                                            <!--<div class="form-group">
+                                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                            </div>-->
+                                            <div class="form-group mb-1">
+                                                <label for="quote-form-message" class="sr-only">Your Message</label>
+                                                <textarea name="message" id="quote-form-message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea>
+                                            </div>
+                                            <div class="form-btn">
+                                                <button class="themeholy-btn btn-fw" aria-label="Submit Quote Request">Submit</button>
+                                            </div>
+                                            <input type="hidden" name="city_slug" value="">
+                                            <input type="hidden" name="neighborhood_slug" value="">
+                                            <input type="hidden" name="brand_slug" value="">
+                                            <input type="hidden" name="service_slug" value="">
+                                        </div>
+                                        <p class="form-messages mb-0 mt-3"></p>
+                                    </form>
+                                </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- banner-section end -->
 
 
-        <!-- service-form-section -->
-        <section class="service-form-section">
-            <span class="title-text">Dormatic</span>
-            <div class="auto-container">
-                <div class="service-form">
-                    <div class="title-inner">
-                        <div class="text">
-                            <h2>Schedule A Service Request</h2>
-                            <p>Nunc lorem quam ar pretium quis ipsum amit lobortis consequat</p>
-                        </div>
-                        <div class="link">
-                            <a href="index.html"><i class="fal fa-map-marker-alt"></i>find a service center near you</a>
+        <!-- feature-style-three -->
+        <section class="feature-section feature-style-three">
+            <div class="outer-container">
+                <div class="inner-content clearfix">
+                    <div class="feature-block-three">
+                        <div class="inner-box">
+                            <div class="icon-box"><i class="icon-icon3"></i></div>
+                            <h3>Our Mission</h3>
+                            <p>Nunc quam ar sed pretium quis lobortis sequatus consetetur diam nucys bibend ipsum dolor sit amet consecty.</p>
                         </div>
                     </div>
-                    <div class="form-inner">
-                        <form action="index.html" method="post" class="request-form clearfix">
-                            <div class="form-group">
-                                <input type="text" name="name" placeholder="Full Name" required="">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Email" required="">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="phone" placeholder="Phone" required="">
-                            </div>
-                            <div class="form-group">
-                                <select class="wide">
-                                   <option data-display="Type Of Service">Type Of Service</option>
-                                   <option value="1">New Door Installation</option>
-                                   <option value="2">Commercial Services</option>
-                                   <option value="3">Garage Door Repair</option>
-                                   <option value="4">Personalized Solutions</option>
-                                </select>
-                            </div>
-                            <div class="message-btn">
-                                <button type="submit" class="theme-btn-one"><span class="btn-shape"></span>send</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- service-form-section end -->
-
-
-        <!-- feature-section -->
-        <section class="feature-section">
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-                        <div class="feature-block-one">
-                            <div class="inner-box">
-                                <div class="icon-box">
-                                    <div class="icon"><i class="icon-icon3"></i></div>
-                                </div>
-                                <h3>Urgent 24/7 Garage Door Repair Services</h3>
-                                <p>Nunc quam ar pretium quis lobortis sequat consetetur diam nuc bibend ipsum dolor sit amet consecty.</p>
-                                <div class="link"><a href="index.html">Read More</a></div>
-                            </div>
+                    <div class="feature-block-three">
+                        <div class="inner-box">
+                            <div class="icon-box"><i class="icon-icon2"></i></div>
+                            <h3>Our Vision</h3>
+                            <p>Nunc quam ar sed pretium quis lobortis sequatus consetetur diam nucys bibend ipsum dolor sit amet consecty.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-                        <div class="feature-block-one">
-                            <div class="inner-box">
-                                <div class="icon-box">
-                                    <div class="icon"><i class="icon-icon2"></i></div>
-                                </div>
-                                <h3>Trusted, Experienced & Insured Company</h3>
-                                <p>Nunc quam ar pretium quis lobortis sequat consetetur diam nuc bibend ipsum dolor sit amet consecty.</p>
-                                <div class="link"><a href="index.html">Read More</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-                        <div class="feature-block-one">
-                            <div class="inner-box">
-                                <div class="icon-box">
-                                    <div class="icon"><i class="icon-icon1"></i></div>
-                                </div>
-                                <h3>Personalized Solutions For Every Customer</h3>
-                                <p>Nunc quam ar pretium quis lobortis sequat consetetur diam nuc bibend ipsum dolor sit amet consecty.</p>
-                                <div class="link"><a href="index.html">Read More</a></div>
-                            </div>
+                    <div class="feature-block-three">
+                        <div class="inner-box">
+                            <div class="icon-box"><i class="icon-icon1"></i></div>
+                            <h3>Strategic Goal</h3>
+                            <p>Nunc quam ar sed pretium quis lobortis sequatus consetetur diam nucys bibend ipsum dolor sit amet consecty.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- feature-section end -->
+        <!-- feature-style-three end -->
 
 
         <!-- about-section -->
@@ -444,19 +393,19 @@
                         <div class="content_block_1">
                             <div class="content-box">
                                 <div class="sec-title">
-                                    <span>Garage Door installation & Repair</span>
-                                    <h2>Garage Door Installation & Repair Company</h2>
+                                    <span>About Us</span>
+                                    <h2>Garage Door Installation & Repair</h2>
                                 </div>
                                 <div class="text">
                                     <div class="quote" style="background-image: url(assets/images/icons/quote-1.png);"></div>
                                     <h3>We fixes the garage doors of many residential and commercial customers each year.</h3>
                                     <p>Nunc quam arcu pretium quis quam sed, laoreet efficitur liquam volutpat.lobortis sem consequat consequat imperdiet. In nulla sed viverraut loremut etur diam nuc bibendum imperdiets. Lorem ipsum dolor sit amet.</p>
                                 </div>
-                                <div class="author-box clearfix">
-                                    <figure class="signature"><img src="assets/images/icons/signature-1.png" alt=""></figure>
-                                    <h3>James Smith</h3>
-                                    <span class="designation">Company Owner</span>
-                                </div>
+<!--                                <div class="author-box clearfix">-->
+<!--                                    <figure class="signature"><img src="assets/images/icons/signature-1.png" alt=""></figure>-->
+<!--                                    <h3>James Smith</h3>-->
+<!--                                    <span class="designation">Company Owner</span>-->
+<!--                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -465,75 +414,230 @@
         </section>
         <!-- about-section end -->
 
+        <!-- clients-section -->
+        <section class="clients-section">
+            <div class="auto-container">
+                <div class="other-text centred">
+                    <h3>Licensed Section</h3>
+                </div>
+                <div class="four-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+                    <figure class="clients-logo"><a href="index-2.html"><img src="assets/images/clients/clients-logo-1.png" alt=""></a></figure>
+                    <figure class="clients-logo"><a href="index-2.html"><img src="assets/images/clients/clients-logo-2.png" alt=""></a></figure>
+                    <figure class="clients-logo"><a href="index-2.html"><img src="assets/images/clients/clients-logo-3.png" alt=""></a></figure>
+                    <figure class="clients-logo"><a href="index-2.html"><img src="assets/images/clients/clients-logo-4.png" alt=""></a></figure>
+                </div>
+            </div>
+        </section>
+        <!-- clients-section end -->
 
-        <!-- service-section -->
-        <section class="service-section bg-color-1">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-1.png);"></div>
+        <!-- installation-section -->
+        <section class="installation-section bg-color-1">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-5.png);"></div>
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-7 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_6">
+                            <div class="content-box">
+                                <div class="sec-title light">
+                                    <span>Garage Door installation & Repair</span>
+                                    <h2>We Provide Full Service While Having The Highest Level Of Quality & Professionalism</h2>
+                                </div>
+                                <div class="tabs-box">
+                                    <div class="tab-btn-box">
+                                        <ul class="tab-btns tab-buttons clearfix">
+                                            <li class="tab-btn active-btn" data-tab="#tab-1">
+                                                <div class="icon-box"><i class="fal fa-star"></i></div>
+                                                <h5>Mission & Vision</h5>
+                                            </li>
+                                            <li class="tab-btn" data-tab="#tab-2">
+                                                <div class="icon-box"><i class="fal fa-heart"></i></div>
+                                                <h5>The Showroom</h5>
+                                            </li>
+                                            <li class="tab-btn" data-tab="#tab-3">
+                                                <div class="icon-box"><i class="fal fa-folder"></i></div>
+                                                <h5>Our History</h5>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tabs-content">
+                                        <div class="tab active-tab" id="tab-1">
+                                            <div class="text">
+                                                <p>Est laborum sed perspiciatis un omnis iste natus eor sit voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doys eiusmod tempor incididunt ut labore etm dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                <p>Exercitation ullamco laboris nisi ut aliquip exs ea com amodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                                <div class="btn-box"><a href="index-2.html">Read More</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="tab" id="tab-2">
+                                            <div class="text">
+                                                <p>Est laborum sed perspiciatis un omnis iste natus eor sit voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doys eiusmod tempor incididunt ut labore etm dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                <p>Exercitation ullamco laboris nisi ut aliquip exs ea com amodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                                <div class="btn-box"><a href="index-2.html">Read More</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="tab" id="tab-3">
+                                            <div class="text">
+                                                <p>Est laborum sed perspiciatis un omnis iste natus eor sit voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doys eiusmod tempor incididunt ut labore etm dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                <p>Exercitation ullamco laboris nisi ut aliquip exs ea com amodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                                <div class="btn-box"><a href="index-2.html">Read More</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 video-column">
+                        <div class="video_block_1">
+                            <div class="video-content">
+                                <div class="video-inner" style="background-image: url(assets/images/resource/video-1.jpg);">
+                                    <div class="video-btn">
+                                        <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image" data-caption=""><i class="fas fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- installation-section end -->
+
+        <!-- service-style-three -->
+        <section class="service-style-three">
             <div class="auto-container">
                 <div class="title-inner clearfix">
-                    <div class="sec-title light text-right">
-                        <span>Garage Door installation & Repair</span>
-                        <h2>Fast & Professional Services We Offer</h2>
+                    <div class="sec-title text-right">
+                        <span>What We Offer</span>
+                        <h2>Our Services in ____</h2>
                     </div>
                     <div class="text">
                         <p>Aute irure dolor reprehenderit cepteur ocaecat cupidatate sed ipsum non proident int sunt indys sint sed ipsum culpa quis.</p>
                     </div>
                 </div>
-                <div class="three-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
-                    <div class="service-block-one">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="service-details-3.html"><img src="assets/images/service/service-1.jpg" alt=""></a></figure>
-                            <div class="lower-content">
-                                <div class="icon-box">
-                                    <div class="icon"><i class="icon-icon6"></i></div>
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="service-details-3.html"><img src="assets/images/service/service-1.jpg" alt=""></a></figure>
+                                <div class="lower-content">
+                                    <div class="icon-box">
+                                        <div class="icon"><i class="icon-icon6"></i></div>
+                                    </div>
+                                    <div class="text">
+                                        <h3><a href="service-details-3.html">New Door Installation</a></h3>
+                                        <p>Sunt culpa qui officia deslys mollit anim est laborum. Sed perspiciatis un omnis iste natus error sit voluptatem.</p>
+                                    </div>
+                                    <div class="link"><a href="service-details-3.html">Read More</a></div>
                                 </div>
-                                <div class="text">
-                                    <h3><a href="service-details-3.html">New Door Installation</a></h3>
-                                    <p>Sunt culpa qui officia deslys mollit anim est laborum. Sed perspiciatis un omnis iste natus error sit voluptatem.</p>
-                                </div>
-                                <div class="link"><a href="service-details-3.html">Read More</a></div>
                             </div>
                         </div>
                     </div>
-                    <div class="service-block-one">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="service-details-2.html"><img src="assets/images/service/service-2.jpg" alt=""></a></figure>
-                            <div class="lower-content">
-                                <div class="icon-box">
-                                    <div class="icon"><i class="icon-icon5"></i></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="service-details-2.html"><img src="assets/images/service/service-2.jpg" alt=""></a></figure>
+                                <div class="lower-content">
+                                    <div class="icon-box">
+                                        <div class="icon"><i class="icon-icon5"></i></div>
+                                    </div>
+                                    <div class="text">
+                                        <h3><a href="service-details-2.html">Commercial Services</a></h3>
+                                        <p>Sunt culpa qui officia deslys mollit anim est laborum. Sed perspiciatis un omnis iste natus error sit voluptatem.</p>
+                                    </div>
+                                    <div class="link"><a href="service-details-2.html">Read More</a></div>
                                 </div>
-                                <div class="text">
-                                    <h3><a href="service-details-2.html">Commercial Services</a></h3>
-                                    <p>Sunt culpa qui officia deslys mollit anim est laborum. Sed perspiciatis un omnis iste natus error sit voluptatem.</p>
-                                </div>
-                                <div class="link"><a href="service-details-2.html">Read More</a></div>
                             </div>
                         </div>
                     </div>
-                    <div class="service-block-one">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="service-details.html"><img src="assets/images/service/service-3.jpg" alt=""></a></figure>
-                            <div class="lower-content">
-                                <div class="icon-box">
-                                    <div class="icon"><i class="icon-icon4"></i></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="service-details.html"><img src="assets/images/service/service-3.jpg" alt=""></a></figure>
+                                <div class="lower-content">
+                                    <div class="icon-box">
+                                        <div class="icon"><i class="icon-icon4"></i></div>
+                                    </div>
+                                    <div class="text">
+                                        <h3><a href="service-details.html">Garage Door Repair</a></h3>
+                                        <p>Sunt culpa qui officia deslys mollit anim est laborum. Sed perspiciatis un omnis iste natus error sit voluptatem.</p>
+                                    </div>
+                                    <div class="link"><a href="service-details.html">Read More</a></div>
                                 </div>
-                                <div class="text">
-                                    <h3><a href="service-details.html">Garage Door Repair</a></h3>
-                                    <p>Sunt culpa qui officia deslys mollit anim est laborum. Sed perspiciatis un omnis iste natus error sit voluptatem.</p>
-                                </div>
-                                <div class="link"><a href="service-details.html">Read More</a></div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="cta-text centred">
-                    <p>Want Your Garage Door Repair or Installation? We’re Ready To Start!</p>
-                    <h3>Call Us Today <i class="icon-mob"></i> <a href="tel:12017193488">(+1) 201 719 3488</a> or <a href="contact.html"><span>Request a FREE Quote</span></a></h3>
+                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="service-details-4.html"><img src="assets/images/service/service-6.jpg" alt=""></a></figure>
+                                <div class="lower-content">
+                                    <div class="icon-box">
+                                        <div class="icon"><i class="icon-icon6"></i></div>
+                                    </div>
+                                    <div class="text">
+                                        <h3><a href="service-details-4.html">Residential Services</a></h3>
+                                        <p>Sunt culpa qui officia deslys mollit anim est laborum. Sed perspiciatis un omnis iste natus error sit voluptatem.</p>
+                                    </div>
+                                    <div class="link"><a href="service-details-4.html">Read More</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="service-details-5.html"><img src="assets/images/service/service-7.jpg" alt=""></a></figure>
+                                <div class="lower-content">
+                                    <div class="icon-box">
+                                        <div class="icon"><i class="icon-icon5"></i></div>
+                                    </div>
+                                    <div class="text">
+                                        <h3><a href="service-details-5.html">Off Track Doors Fix</a></h3>
+                                        <p>Sunt culpa qui officia deslys mollit anim est laborum. Sed perspiciatis un omnis iste natus error sit voluptatem.</p>
+                                    </div>
+                                    <div class="link"><a href="service-details-5.html">Read More</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="service-details-6.html"><img src="assets/images/service/service-8.jpg" alt=""></a></figure>
+                                <div class="lower-content">
+                                    <div class="icon-box">
+                                        <div class="icon"><i class="icon-icon4"></i></div>
+                                    </div>
+                                    <div class="text">
+                                        <h3><a href="service-details-6.html">Automatic Garage Door</a></h3>
+                                        <p>Sunt culpa qui officia deslys mollit anim est laborum. Sed perspiciatis un omnis iste natus error sit voluptatem.</p>
+                                    </div>
+                                    <div class="link"><a href="service-details-3.html">Read More</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- service-section end -->
+        <!-- service-style-three end -->
 
+        <!-- cta-section -->
+        <section class="cta-section">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+            <div class="auto-container">
+                <div class="inner-box clearfix">
+                    <div class="text pull-left">
+                        <h2>Urgent 24/7 Garage Door Repair, <br />Installation & Replacement Services</h2>
+                    </div>
+                    <div class="btn-box pull-right clearfix">
+                        <a href="tel:12017193488" class="call"><i class="icon-mob"></i>(+1) 201 719 3488</a>
+                        <a href="index.html" class="theme-btn-one"><span class="btn-shape"></span>Get A quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta-section end -->
 
         <!-- chooseus-section -->
         <section class="chooseus-section">
@@ -547,12 +651,7 @@
                     <div class="col-lg-4 col-md-12 col-sm-12 content-column">
                         <div class="content_block_2">
                             <div class="content-box">
-                                <div class="inner-box" style="background-image: url(assets/images/resource/chooseus-1.jpg);">
-                                    <div class="text">
-                                        <h2>25</h2>
-                                        <h5>years of <br />Smart Working experience</h5>
-                                    </div>
-                                </div>
+                                <div class="inner-box" style="background-image: url(assets/images/resource/chooseus-1.png);"></div>
                             </div>
                         </div>
                     </div>
@@ -639,65 +738,6 @@
         </section>
         <!-- chooseus-section end -->
 
-
-        <!-- project-section -->
-        <section class="project-section bg-color-2">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-2.png);"></div>
-            <div class="auto-container">
-                <div class="title-inner clearfix">
-                    <div class="sec-title text-right">
-                        <span>Garage Door installation & Repair</span>
-                        <h2>Our Projects Tailored To Client’s Needs</h2>
-                    </div>
-                    <div class="text">
-                        <p>Aute irure dolor reprehenderit cepteur ocaecat cupidatate sed ipsum non proident int sunt indys sint sed ipsum culpa quis.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-inner">
-                <div class="project-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
-                    <div class="project-block-one">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/gallery/project-1.jpg" alt=""></figure>
-                            <div class="lower-content">
-                                <div class="inner">
-                                    <div class="link"><a href="index.html">Residential Project</a></div>
-                                    <h2>Garage Door Installation</h2>
-                                    <div class="btn-box"><a href="index.html" class="theme-btn-one"><span class="btn-shape"></span>View details</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-block-one">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/gallery/project-2.jpg" alt=""></figure>
-                            <div class="lower-content">
-                                <div class="inner">
-                                    <div class="link"><a href="index.html">Residential Project</a></div>
-                                    <h2>Garage Door Installation</h2>
-                                    <div class="btn-box"><a href="index.html" class="theme-btn-one"><span class="btn-shape"></span>View details</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-block-one">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/gallery/project-3.jpg" alt=""></figure>
-                            <div class="lower-content">
-                                <div class="inner">
-                                    <div class="link"><a href="index.html">Residential Project</a></div>
-                                    <h2>Garage Door Installation</h2>
-                                    <div class="btn-box"><a href="index.html" class="theme-btn-one"><span class="btn-shape"></span>View details</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- project-section end -->
-
-
         <!-- testimonial-section -->
         <section class="testimonial-section">
             <div class="large-container">
@@ -767,60 +807,133 @@
         </section>
         <!-- testimonial-section end -->
 
+        <!-- cta-style-two -->
+        <section class="cta-style-two centred bg-color-3">
+            <div class="auto-container">
+                <div class="cta-text">
+                    <figure class="icon"><img src="assets/images/icons/icon-11.png" alt=""></figure>
+                    <p>Want Your Garage Door Repair or Installation? We’re Ready To Start!</p>
+                    <h3>Call Us Today <i class="icon-mob"></i> <a href="tel:12017193488">(+1) 201 719 3488</a> or <a href="contact.html"><span>Request a FREE Quote</span></a></h3>
+                </div>
+            </div>
+        </section>
+        <!-- cta-style-two end -->
 
-        <!-- funfact-section -->
-        <section class="funfact-section centred">
-            <div class="map-layer" style="background-image: url(assets/images/shape/map-1.png);"></div>
-            <div class="large-container">
+
+        <!-- FAQ -->
+        <section class="about-style-three faq-section-custom">
+            <div class="image-box">
+                <figure class="image image-1">
+                    <img src="assets/images/resource/about-1.png" alt="">
+                </figure>
+            </div>
+            <figure class="icon-shape"><img src="assets/images/icons/icon-12.png" alt=""></figure>
+            <div class="auto-container">
                 <div class="row clearfix">
-                    <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                        <div class="counter-block-one">
-                            <div class="inner-box">
-                                <div class="icon-box"><i class="icon-icon7"></i></div>
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="260">0</span>
+                    <div class="col-lg-6 col-md-12 col-sm-12 offset-lg-6 content-block">
+                        <div class="content_block_1">
+                            <div class="content-box">
+                                <div class="sec-title">
+                                    <span>FAQ's</span>
+                                    <h2>Frequently Asked Questions</h2>
                                 </div>
-                                <p>Doors Repaired Weekly</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                        <div class="counter-block-one">
-                            <div class="inner-box">
-                                <div class="icon-box"><i class="icon-icon8"></i></div>
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="1.9">0</span><span>k</span>
+                                <div class="faq-accordion" id="doorFaqAccordion">
+                                    <div class="faq-item">
+                                        <div class="faq-header" id="faqHeadingOne">
+                                            <button class="faq-btn" type="button" data-toggle="collapse" data-target="#faqCollapseOne" aria-expanded="false" aria-controls="faqCollapseOne">
+                                                <span>Why is my door dragging on the floor or sticking?</span>
+                                                <i class="fas fa-angle-right"></i>
+                                            </button>
+                                        </div>
+                                        <div id="faqCollapseOne" class="collapse" aria-labelledby="faqHeadingOne" data-parent="#doorFaqAccordion">
+                                            <div class="faq-body">
+                                                This can happen because of loose hinges, swelling from moisture, frame shifting, or floor clearance issues.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="faq-item">
+                                        <div class="faq-header" id="faqHeadingTwo">
+                                            <button class="faq-btn" type="button" data-toggle="collapse" data-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                                <span>My storefront door will not latch or lock, what is causing it?</span>
+                                                <i class="fas fa-angle-right"></i>
+                                            </button>
+                                        </div>
+                                        <div id="faqCollapseTwo" class="collapse" aria-labelledby="faqHeadingTwo" data-parent="#doorFaqAccordion">
+                                            <div class="faq-body">
+                                                Misalignment, worn hardware, damaged strike plates, or lock mechanism problems are common causes.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="faq-item">
+                                        <div class="faq-header" id="faqHeadingThree">
+                                            <button class="faq-btn" type="button" data-toggle="collapse" data-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                                                <span>Why is my door closer slamming or not closing all the way?</span>
+                                                <i class="fas fa-angle-right"></i>
+                                            </button>
+                                        </div>
+                                        <div id="faqCollapseThree" class="collapse" aria-labelledby="faqHeadingThree" data-parent="#doorFaqAccordion">
+                                            <div class="faq-body">
+                                                The closer may need adjustment, or it may be worn out and no longer controlling the swing properly.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="faq-item">
+                                        <div class="faq-header" id="faqHeadingFour">
+                                            <button class="faq-btn" type="button" data-toggle="collapse" data-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+                                                <span>What should I do if the glass in my door is cracked or shattered?</span>
+                                                <i class="fas fa-angle-right"></i>
+                                            </button>
+                                        </div>
+                                        <div id="faqCollapseFour" class="collapse" aria-labelledby="faqHeadingFour" data-parent="#doorFaqAccordion">
+                                            <div class="faq-body">
+                                                Secure the area right away and stop using the door until the damaged glass is professionally replaced.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="faq-item">
+                                        <div class="faq-header" id="faqHeadingFive">
+                                            <button class="faq-btn" type="button" data-toggle="collapse" data-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
+                                                <span>My automatic door is not opening consistently, what are the common reasons?</span>
+                                                <i class="fas fa-angle-right"></i>
+                                            </button>
+                                        </div>
+                                        <div id="faqCollapseFive" class="collapse" aria-labelledby="faqHeadingFive" data-parent="#doorFaqAccordion">
+                                            <div class="faq-body">
+                                                Sensor issues, low power, dirty activation devices, or faulty control components are common reasons.
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <p>Projects Completed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                        <div class="counter-block-one">
-                            <div class="inner-box">
-                                <div class="icon-box"><i class="icon-icon9"></i></div>
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="70">0</span><span>+</span>
-                                </div>
-                                <p>Qualified Workers</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
-                        <div class="counter-block-one">
-                            <div class="inner-box">
-                                <div class="icon-box"><i class="icon-icon10"></i></div>
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="435">0</span>
-                                </div>
-                                <p>Get Awards & Honors</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- funfact-section end -->
+        <!-- FAQ end -->
+
+
+        <!-- cta-section -->
+        <section class="cta-section">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+            <div class="auto-container">
+                <div class="inner-box clearfix">
+                    <div class="text pull-left">
+                        <h2>Urgent 24/7 Garage Door Repair, <br />Installation & Replacement Services</h2>
+                    </div>
+                    <div class="btn-box pull-right clearfix">
+                        <a href="tel:12017193488" class="call"><i class="icon-mob"></i>(+1) 201 719 3488</a>
+                        <a href="index.html" class="theme-btn-one"><span class="btn-shape"></span>Get A quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta-section end -->
 
 
         <!-- contact-info-section -->
@@ -879,150 +992,79 @@
         <!-- contact-info-section end -->
 
 
-        <!-- news-section -->
-        <section class="news-section">
+        <!-- appointment-section -->
+        <section class="appointment-section">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-9.png);"></div>
             <div class="auto-container">
-                <div class="title-inner clearfix">
-                    <div class="sec-title text-right">
-                        <span>Garage Door installation &amp; Repair</span>
-                        <h2>Garage Door Repair <br />News & Updates</h2>
-                    </div>
-                    <div class="text">
-                        <p>Aute irure dolor reprehenderit cepteur ocaecat cupidatate sed ipsum non proident int sunt indys sint sed ipsum culpa quis.</p>
-                    </div>
+                <div class="sec-title centred">
+                    <span>Garage Door installation & Repair</span>
+                    <h2>Make An Appointment</h2>
+                    <p>Nunc quam ar pretium quis lobortis sequat consetetur diam bibend ipsum dolor <br />sit amet consecty nunc voluptatem enim veniam quis nostrud</p>
                 </div>
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box">
-                                    <img src="assets/images/news/news-1.jpg" alt="">
-                                    <a href="blog-details.html">Read More</a>
-                                </figure>
-                                <div class="lower-content">
+                <div class="inner-content">
+                    <div class="row align-items-center clearfix">
+                        <div class="col-lg-6 col-md-6 col-sm-12 map-column">
+                            <div class="map-inner">
+                                <div
+                                        class="google-map"
+                                        id="contact-google-map"
+                                        data-map-lat="40.712776"
+                                        data-map-lng="-74.005974"
+                                        data-icon-path="assets/images/icons/map-marker.png"
+                                        data-map-title="Brooklyn, New York, United Kingdom"
+                                        data-map-zoom="12"
+                                        data-markers='{
+                                        "marker-1": [40.712776, -74.005974, "<h4>Branch Office</h4><p>77/99 New York</p>","assets/images/icons/map-marker.png"]
+                                    }'>
+
+                                </div>
+                                <div class="map-content">
                                     <div class="inner">
-                                        <ul class="post-meta clearfix">
-                                            <li><a href="blog-details.html"><span>Door Installation</span></a></li>
-                                            <li><i class="far fa-calendar-alt"></i>Oct 15, 2020</li>
-                                            <li><i class="fal fa-comments"></i><a href="blog-details.html">46</a></li>
-                                        </ul>
-                                        <h3><a href="blog-details.html">Verify That Opener Is Still Plugged Into The Electric Outlet</a></h3>
-                                        <p>Quam arcu pretium quis quam sed, laorey afficits volutpat lobortis sem consq consequat...</p>
-                                    </div>
-                                    <div class="post-info">
-                                        <ul class="info clearfix">
-                                            <li><i class="far fa-user"></i>By <a href="blog-details.html">Alex Hales</a></li>
-                                            <li class="share">
-                                                <i class="far fa-share"></i>
-                                                Share
-                                                <ul>
-                                                   <li><a href="blog-details.html"><i class="fab fa-facebook-f"></i></a></li>
-                                                   <li><a href="blog-details.html"><i class="fab fa-twitter"></i></a></li> 
-                                                   <li><a href="blog-details.html"><i class="fab fa-google-plus-g"></i></a></li> 
-                                                   <li><a href="blog-details.html"><i class="fab fa-linkedin-in"></i></a></li> 
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                        <div class="icon-box"><i class="far fa-map-marker-alt"></i></div>
+                                        <p>72 Main Drive, Calibry Forida, 890012 US</p>
+                                        <h6>Phone: <a href="tel:2017193488">201-719-3488</a></h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box">
-                                    <img src="assets/images/news/news-2.jpg" alt="">
-                                    <a href="blog-details.html">Read More</a>
-                                </figure>
-                                <div class="lower-content">
-                                    <div class="inner">
-                                        <ul class="post-meta clearfix">
-                                            <li><a href="blog-details.html"><span>Overhead Doors</span></a></li>
-                                            <li><i class="far fa-calendar-alt"></i>Oct 14, 2020</li>
-                                            <li><i class="fal fa-comments"></i><a href="blog-details.html">50</a></li>
-                                        </ul>
-                                        <h3><a href="blog-details.html">Commercial Garage Doors vs. Residential Garage Doors</a></h3>
-                                        <p>Quam arcu pretium quis quam sed, laorey afficits volutpat lobortis sem consq consequat...</p>
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-column">
+                            <div class="form-inner">
+                                <h3>A Premium Garage Door Service For Secure & Loving Garage. Any Questions? Send Us A Message.</h3>
+                                <form action="index-3.html" method="post" class="appointment-form">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-12 form-group">
+                                            <input type="text" name="name" placeholder="Full Name" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 form-group">
+                                            <input type="email" name="email" placeholder="Email" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 form-group">
+                                            <input type="text" name="phone" placeholder="Phone" required="">
+                                        </div>
+                                        <div class="col-lg-12 form-group">
+                                            <select class="wide">
+                                                <option data-display="Type Of Service">Type Of Service</option>
+                                                <option value="1">New Door Installation</option>
+                                                <option value="2">Commercial Services</option>
+                                                <option value="3">Garage Door Repair</option>
+                                                <option value="4">Personalized Solutions</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-12 form-group">
+                                            <textarea name="message" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="col-lg-12 message-btn form-group">
+                                            <button type="submit" class="theme-btn-one"><span class="btn-shape"></span>send now</button>
+                                        </div>
                                     </div>
-                                    <div class="post-info">
-                                        <ul class="info clearfix">
-                                            <li><i class="far fa-user"></i>By <a href="blog-details.html">Alex Hales</a></li>
-                                            <li class="share">
-                                                <i class="far fa-share"></i>
-                                                Share
-                                                <ul>
-                                                   <li><a href="blog-details.html"><i class="fab fa-facebook-f"></i></a></li>
-                                                   <li><a href="blog-details.html"><i class="fab fa-twitter"></i></a></li> 
-                                                   <li><a href="blog-details.html"><i class="fab fa-google-plus-g"></i></a></li> 
-                                                   <li><a href="blog-details.html"><i class="fab fa-linkedin-in"></i></a></li> 
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box">
-                                    <img src="assets/images/news/news-3.jpg" alt="">
-                                    <a href="blog-details.html">Read More</a>
-                                </figure>
-                                <div class="lower-content">
-                                    <div class="inner">
-                                        <ul class="post-meta clearfix">
-                                            <li><a href="blog-details.html"><span>Garage Door Tips</span></a></li>
-                                            <li><i class="far fa-calendar-alt"></i>Oct 13, 2020</li>
-                                            <li><i class="fal fa-comments"></i><a href="blog-details.html">42</a></li>
-                                        </ul>
-                                        <h3><a href="blog-details.html">When It’s Time to Call in the Professionals for Garage Door</a></h3>
-                                        <p>Quam arcu pretium quis quam sed, laorey afficits volutpat lobortis sem consq consequat...</p>
-                                    </div>
-                                    <div class="post-info">
-                                        <ul class="info clearfix">
-                                            <li><i class="far fa-user"></i>By <a href="blog-details.html">Alex Hales</a></li>
-                                            <li class="share">
-                                                <i class="far fa-share"></i>
-                                                Share
-                                                <ul>
-                                                   <li><a href="blog-details.html"><i class="fab fa-facebook-f"></i></a></li>
-                                                   <li><a href="blog-details.html"><i class="fab fa-twitter"></i></a></li> 
-                                                   <li><a href="blog-details.html"><i class="fab fa-google-plus-g"></i></a></li> 
-                                                   <li><a href="blog-details.html"><i class="fab fa-linkedin-in"></i></a></li> 
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- news-section end -->
-
-
-        <!-- cta-section -->
-        <section class="cta-section">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-3.png);"></div>
-            <div class="auto-container">
-                <div class="inner-box clearfix">
-                    <div class="text pull-left">
-                        <h2>Urgent 24/7 Garage Door Repair, <br />Installation & Replacement Services</h2>
-                    </div>
-                    <div class="btn-box pull-right clearfix">
-                        <a href="tel:12017193488" class="call"><i class="icon-mob"></i>(+1) 201 719 3488</a>
-                        <a href="index.html" class="theme-btn-one"><span class="btn-shape"></span>Get A quote</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- cta-section end -->
-
+        <!-- appointment-section end -->
 
         <!-- main-footer -->
         <footer class="main-footer">
@@ -1096,24 +1138,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="subscribe-inner clearfix">
-                    <div class="widget-title pull-left">
-                        <h3>Subscribe To Newsletter</h3>
-                    </div>
-                    <div class="form-inner pull-right">
-                        <form action="contact.html" method="post" class="subscribe-form clearfix">
-                            <div class="form-group">
-                                <input type="text" name="neme" placeholder="Your Name" required="">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Email" required="">
-                            </div>
-                            <div class="message-btn">
-                                <button type="submit" class="theme-btn-one"><span class="btn-shape"></span>subscribe</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
             </div>
             <div class="footer-bottom centred">
                 <div class="auto-container">
@@ -1122,10 +1146,26 @@
                     </div>
                 </div>
             </div>
+            <div class="footer-bottom centred d-none d-md-block footer-fixed-cta">
+                <div class="auto-container">
+                    <div class="row justify-content-center align-items-center footer-fixed-cta-row">
+                        <div class="col-6">
+                            <button class="btn btn-lg footer-cta-btn footer-cta-btn--book" type="button" onclick="showQuoteModal()">
+                                <i class="far fa-calendar-alt footer-cta-ico" aria-hidden="true"></i>
+                                <span>BOOK AN APPOINTMENT</span>
+                            </button>
+                        </div>
+                        <div class="col-6">
+                            <a class="btn btn-lg footer-cta-btn footer-cta-btn--call" href="tel:14314444430">
+                                <i class="fas fa-phone footer-cta-ico" aria-hidden="true"></i>
+                                <span>(431) 444-4430</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
         <!-- main-footer end -->
-
-
 
         <!--Scroll to top-->
         <button class="scroll-top scroll-to-target" data-target="html">
