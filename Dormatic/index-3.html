@@ -244,52 +244,83 @@
 
 
         <!-- banner-section -->
-        <section class="banner-section style-three">
-            <div class="banner-carousel owl-theme owl-carousel owl-nav-none">
+        <div class="banner-section">
+            <div class="banner-carousel owl-carousel">
                 <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/banner/banner-5.jpg)"></div>
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <h5><i class="icon-warehouse"></i>Welcome To Dormatic Service</h5>
-                            <h1>Quality Garage Door Installations & Repairs</h1>
-                            <p>Mod tempor incididunt ut laboret dolore magna aliqua tenim adnim veniam quis nostrud exercitation ullamco.</p>
-                            <div class="btn-box clearfix">
-                                <a href="index-3.html" class="banner-btn"><span class="btn-shape"></span>Find Service center</a>
-                                <a href="index-3.html" class="theme-btn-one"><span class="btn-shape"></span>learn more</a>
-                            </div>
-                        </div> 
+                    <div class="image-layer">
+                        <video autoplay="" muted="" loop="" playsinline="" preload="metadata" aria-hidden="true" tabindex="-1" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; display:block;">
+                            <source src="assets/video/header.mp4">
+                        </video>
                     </div>
-                </div>
-                <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/banner/banner-6.jpg)"></div>
-                    <div class="auto-container">
+                    <div class="auto-container container-2">
                         <div class="content-box">
                             <h5><i class="icon-warehouse"></i>Welcome To Dormatic Service</h5>
-                            <h1>Quality Garage Door Installations & Repairs</h1>
+                            <h1>Garage Door Installations & Repairs</h1>
                             <p>Mod tempor incididunt ut laboret dolore magna aliqua tenim adnim veniam quis nostrud exercitation ullamco.</p>
-                            <div class="btn-box clearfix">
-                                <a href="index-3.html" class="banner-btn"><span class="btn-shape"></span>Find Service center</a>
-                                <a href="index-3.html" class="theme-btn-one"><span class="btn-shape"></span>learn more</a>
+                            <div class="btn-box banner-cta-row">
+                                <div class="call-now banner-call-now">
+                                    <div class="inner">
+                                        <i class="icon-mob"></i>
+                                        <span>Book an Appointment Today!</span>
+                                        <h3><a href="tel:12017193488">(+1) 201 719 3488</a></h3>
+                                    </div>
+                                </div>
+                                <a href="index.html" class="theme-btn-one banner-cta-link"><span class="btn-shape"></span>learn more</a>
                             </div>
-                        </div>   
-                    </div>
-                </div>
-                <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/banner/banner-5.jpg)"></div>
-                    <div class="auto-container">
+                        </div>
                         <div class="content-box">
-                            <h5><i class="icon-warehouse"></i>Welcome To Dormatic Service</h5>
-                            <h1>Quality Garage Door Installations & Repairs</h1>
-                            <p>Mod tempor incididunt ut laboret dolore magna aliqua tenim adnim veniam quis nostrud exercitation ullamco.</p>
-                            <div class="btn-box clearfix">
-                                <a href="index-3.html" class="banner-btn"><span class="btn-shape"></span>Find Service center</a>
-                                <a href="index-3.html" class="theme-btn-one"><span class="btn-shape"></span>learn more</a>
+                            <div class="service-form">
+                                <div class="title-inner">
+                                    <div class="text">
+                                        <h2 class="text-white text-center" style="margin: -10px 0px 10px">Schedule A Service Request</h2>
+                                    </div>
+                                </div>
+                                <div class="form-inner">
+                                    <form class="contact-form ajax-contact quote-form" onsubmit="handleFormSubmission(this); return false;">
+                                        <div class="row">
+                                            <div class="form-group mb-1">
+                                                <label for="quote-form-name" class="sr-only">Your Name</label>
+                                                <input type="text" class="form-control" name="name" id="quote-form-name" placeholder="Your Name">
+                                            </div>
+                                            <div class="form-group mb-1">
+                                                <label for="quote-form-phone" class="sr-only">Phone Number</label>
+                                                <input type="tel" class="form-control" name="phone" id="quote-form-phone" placeholder="Phone Number">
+                                            </div>
+                                            <div class="form-group mb-1">
+                                                <label for="quote-form-email" class="sr-only">Email Address</label>
+                                                <input type="email" class="form-control" name="email" id="quote-form-email" placeholder="Email Address">
+                                            </div>
+                                            <div class="form-group mb-1" style="margin-bottom: 10px;">
+                                                <label for="quote-form-address" class="sr-only">Address (Optional)</label>
+                                                <input type="text" class="form-control" name="address" id="quote-form-address" placeholder="Address (Optional)">
+                                                <small class="form-text text-muted" style="display: inline-block; font-size: 0.75rem; line-height: 1.1;">
+                                                    Adding your address helps us confirm availability faster.
+                                                </small>
+                                            </div>
+                                            <!--<div class="form-group">
+                                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                            </div>-->
+                                            <div class="form-group mb-1">
+                                                <label for="quote-form-message" class="sr-only">Your Message</label>
+                                                <textarea name="message" id="quote-form-message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea>
+                                            </div>
+                                            <div class="form-btn">
+                                                <button class="themeholy-btn btn-fw" aria-label="Submit Quote Request">Submit</button>
+                                            </div>
+                                            <input type="hidden" name="city_slug" value="">
+                                            <input type="hidden" name="neighborhood_slug" value="">
+                                            <input type="hidden" name="brand_slug" value="">
+                                            <input type="hidden" name="service_slug" value="">
+                                        </div>
+                                        <p class="form-messages mb-0 mt-3"></p>
+                                    </form>
+                                </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- banner-section end -->
 
 
