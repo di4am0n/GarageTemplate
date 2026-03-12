@@ -9882,3 +9882,76 @@ div#mCSB_1_container{
     height: 420px;
   }
 }
+
+
+/* ==================================================
+   Banner Transition Removal Override
+   Added to disable banner text and media transitions
+   ================================================== */
+.banner-section .banner-carousel .slide-item,
+.banner-section .banner-carousel .slide-item:before,
+.banner-section .banner-carousel .slide-item .image-layer,
+.banner-section .banner-carousel .slide-item img,
+.banner-section .banner-carousel .slide-item video,
+.banner-section .banner-carousel .content-box,
+.banner-section .banner-carousel .content-box h5,
+.banner-section .banner-carousel .content-box h1,
+.banner-section .banner-carousel .content-box h3,
+.banner-section .banner-carousel .content-box p,
+.banner-section .banner-carousel .content-box .btn-box,
+.banner-section .banner-carousel .content-box .call-now,
+.banner-section .banner-carousel .content-box .theme-btn-one{
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -ms-animation: none !important;
+  -o-animation: none !important;
+  animation: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+.banner-section .banner-carousel .content-box h5,
+.banner-section .banner-carousel .content-box h1,
+.banner-section .banner-carousel .content-box h3,
+.banner-section .banner-carousel .content-box p,
+.banner-section .banner-carousel .content-box .btn-box{
+  opacity: 1 !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -o-transform: none !important;
+  transform: none !important;
+}
+
+.banner-section .banner-carousel .active .content-box h5,
+.banner-section .banner-carousel .active .content-box h1,
+.banner-section .banner-carousel .active .content-box h3,
+.banner-section .banner-carousel .active .content-box p,
+.banner-section .banner-carousel .active .content-box .btn-box{
+  opacity: 1 !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -o-transform: none !important;
+  transform: none !important;
+  -webkit-transition-delay: 0ms !important;
+  -moz-transition-delay: 0ms !important;
+  -ms-transition-delay: 0ms !important;
+  -o-transition-delay: 0ms !important;
+  transition-delay: 0ms !important;
+}
+
+.banner-section .banner-carousel,
+.banner-section .banner-carousel .owl-stage-outer,
+.banner-section .banner-carousel .owl-stage,
+.banner-section .banner-carousel .owl-item,
+.banner-section .banner-carousel .slide-item,
+.banner-section .banner-carousel .image-layer,
+.banner-section .banner-carousel .image-layer video{
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
