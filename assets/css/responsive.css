@@ -2101,3 +2101,78 @@ table{
     line-height: 1.6;
   }
 }
+
+@media only screen and (max-width: 767px){
+
+  .appointment-section .form-inner{
+    padding: 12px 14px 0;
+  }
+
+  .appointment-section .form-inner h3{
+    font-size: 20px;
+    line-height: 1.55;
+    font-weight: 700;
+    text-align: center;
+    max-width: 260px;
+    margin: 0 auto 18px;
+    color: #1f1f1f;
+  }
+
+  .appointment-section .appointment-form{
+    margin: 0;
+  }
+
+  .appointment-section .appointment-form > .row{
+    display: block;
+    margin: 0;
+  }
+
+  .appointment-section .appointment-form .form-group{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .appointment-section .appointment-form .form-group input[type='text'],
+  .appointment-section .appointment-form .form-group input[type='email'],
+  .appointment-section .appointment-form .form-group input[type='tel'],
+  .appointment-section .appointment-form .form-group textarea{
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    background: #ffffff;
+    color: #666666;
+    font-size: 15px;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+  }
+
+  .appointment-section .appointment-form .form-group input[type='text'],
+  .appointment-section .appointment-form .form-group input[type='email'],
+  .appointment-section .appointment-form .form-group input[type='tel']{
+    height: 50px;
+    padding: 0 16px;
+  }
+
+  .appointment-section .appointment-form .form-group textarea{
+    height: 105px;
+    padding: 14px 16px;
+    resize: none;
+    margin-bottom: 0;
+  }
+
+  .appointment-section .appointment-form .form-group input::placeholder,
+  .appointment-section .appointment-form .form-group textarea::placeholder{
+    color: #7a7a7a;
+    opacity: 1;
+  }
+
+  .appointment-section .appointment-form .message-btn{
+    margin-top: 4px;
+  }
+
+  .appointment-section .appointment-form .message-btn .theme-btn-one{
+    width: 100%;
+    justify-content: center;
+  }
+}
