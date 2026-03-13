@@ -425,17 +425,19 @@
 			// Needed variables
 			var $container=$('.sortable-masonry .items-container');
 			var $filter=$('.filter-btns');
-	
-			$container.isotope({
-				filter:'*',
-				 masonry: {
-					columnWidth : '.masonry-item.small-column'
-				 },
-				animationOptions:{
-					duration:500,
-					easing:'linear'
-				}
-			});
+
+			if ($.fn.isotope) {
+				$container.isotope({
+					filter:'*',
+					masonry: {
+						columnWidth : '.masonry-item.small-column'
+					},
+					animationOptions:{
+						duration:500,
+						easing:'linear'
+					}
+				});
+			}
 			
 	
 			// Isotope Filter 
@@ -461,14 +463,16 @@
 			winDow.on('resize', function(){
 				var selector = $filter.find('li.active').attr('data-filter');
 
-				$container.isotope({ 
-					filter	: selector,
-					animationOptions: {
-						duration: 500,
-						easing	: 'linear',
-						queue	: false
-					}
-				});
+				if ($.fn.isotope) {
+					$container.isotope({
+						filter : selector,
+						animationOptions: {
+							duration: 500,
+							easing : 'linear',
+							queue : false
+						}
+					});
+				}
 			});
 	
 	
